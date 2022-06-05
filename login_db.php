@@ -23,7 +23,11 @@
 
             if (mysqli_num_rows($result) == 1) {
                 $_SESSION['username'] = $username;
-                $_SESSION['success'] = "Your are now logged in";
+                $_SESSION['success'] = "เข้าสู่ระบบเรียบร้อยแล้ว";
+                
+               // $title='เข้าสู่ระบบสำเร็จ';$link='index.php';
+             //   msg_success($title,$link);
+
                 header("location: index.php");
             } else {
                 array_push($errors, "Wrong Username or Password");

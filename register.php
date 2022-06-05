@@ -13,9 +13,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+<center><a href="index.php">กลับหน้าหลัก</a></center>
+ 
     <div class="header">
-        <h2>Register</h2>
+        <h2>สมัครสมาชิก</h2>
     </div>
 
     <form action="register_db.php" method="post">
@@ -47,9 +48,9 @@
             <input type="password" name="password_2">
         </div>
         <div class="input-group">
-            <button type="submit" name="reg_user" class="btn">Register</button>
+            <button type="submit" name="reg_user" class="btn">สมัคร</button>
         </div>
-        <p>Already a member? <a href="login.php">Sign in</a></p>
+        <p>มีสมาชิกแล้ว ? <a href="login.php">เข้าสู่ระบบ</a></p>
     </form>
 
 </body>

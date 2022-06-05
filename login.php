@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<center><a href="index.php">Home</a></center>
+<center><a href="index.php">กลับหน้าหลัก</a></center>
 <div class="header">
 
-Login
+เข้าสู่ระบบ
 </div>
 <?php
 session_start();
@@ -39,11 +39,11 @@ session_start();
         <input type="password" name="password">
       </div>
       <div class="input-group">
-        <button type="submit" name="login_user" class="btn">Login</button>
+        <button type="submit" name="login_user" class="btn">เข้าสู่ระบบ</button>
       </div>
 
 
-      <p>not yet a member ? <a href="register.php">register</a> </p> 
+      <p>ยังไม่เป็นสมาชิก ? <a href="register.php">สมัครสมาชิก</a> </p> 
 
       
     </form>

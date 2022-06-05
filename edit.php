@@ -30,7 +30,7 @@
 <body>
 
    
-<center><a href="index.php">Home</a></center>
+<center><a href="index.php">กลับหน้าหลัก</a></center>
 
 <center><h2>หน้าจัดการสินค้า</h2></center>
 <br>
@@ -58,7 +58,7 @@
   <center><label for="item" style="color:green" ><b> เพิ่มรายการสินค้า</b></label></center>
    
   ชื่อสินค้า
-  <input type="text"  name="newitem"  ><br>
+  <input type="text"  name="newitem" required ><br>
   จำนวน<input type="number" id="quantity" name="quantity" min="0" >
   <button type="submit" name="add" class="btn2">เพิ่มรายการ</button>
 
@@ -79,9 +79,9 @@
 
     <thead>
         <tr>
-            <th>id</th>
-            <th>name</th>
-            <th>amout</th>
+            <th>หมายเลข</th>
+            <th>ชื่อรายการ</th>
+            <th>จำนวน</th>
             
         </tr>
         </thead>

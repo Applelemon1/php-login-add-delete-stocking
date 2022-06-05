@@ -33,11 +33,11 @@ $result =mysqli_query($con,$query) or die("error ").mysqli_error($query);
 
 ?>
     <div class="header">
-        <h2>หน้าหลัก</h2>
+        <h2 style="color:black">หน้าหลัก</h2>
 
         <?php if(!isset($_SESSION['username'])) : ?>
-        <h3><a href="login.php">Login</a></h3>
-        <h4><a href="register.php" style="color:green">Register</a></h4>  
+        <h3><a href="login.php"  >เข้าสู่ระบบ</a></h3>
+        <h4><a href="register.php" >สมัครสมาชิก</a></h4>  
        <?php endif ?>
 
     </div>
@@ -87,9 +87,9 @@ $result =mysqli_query($con,$query) or die("error ").mysqli_error($query);
 
     <thead>
         <tr>
-            <th>id</th>
-            <th>name</th>
-            <th>amout</th>
+        <th>หมายเลข</th>
+            <th>ชื่อรายการ</th>
+            <th>จำนวน</th>
         </tr>
         </thead>
 
